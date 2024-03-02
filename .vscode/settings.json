@@ -1,0 +1,22 @@
+{
+  "json.schemas": [
+    {
+      "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
+      "fileMatch": ["package.json", "tsup.config.json"]
+    },
+    {
+      "url": "https://json.schemastore.org/prettierrc-2.8.8",
+      "fileMatch": [".prettierrc"]
+    },
+    {
+      "url": "https://json.schemastore.org/package",
+      "fileMatch": ["package.json"]
+    },
+    {
+      "url": "https://json.schemastore.org/eslintrc.json",
+      "fileMatch": [".eslintrc.json"]
+    }
+  ],
+  "prettier.configPath": ".prettierrc",
+  "prettier.ignorePath": ".prettierignore"
+}

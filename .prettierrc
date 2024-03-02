@@ -1,0 +1,17 @@
+{
+  "trailingComma": "none",
+  "tabWidth": 4,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "quoteProps": "consistent",
+  "printWidth": 120,
+  "semi": false,
+  "overrides": [
+    {
+      "files": ["*.json", ".prettierrc"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
