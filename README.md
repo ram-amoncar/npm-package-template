@@ -16,7 +16,7 @@ A template for NPM packages in TypeScript.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/npm-package-template.git your-package-name
+git clone https://github.com/Ram-Amoncar/npm-package-template.git your-package-name
 ```
 
 Install dependencies:
