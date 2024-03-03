@@ -36,16 +36,16 @@ Use this checklist to guide you through the setup and customization process of y
     ```
     Ensure your code adheres to the specified coding standards.
 
-  -  [x] Confirm there are no linting errors.
-  -  [x] Confirm code formatting is consistent.
+     -  [x] Confirm there are no linting errors.
+     -  [x] Confirm code formatting is consistent.
 
 8. Documentation:
 
- - [x] Update the README.md file to provide relevant information about your specific package.
- - [x] Remove unnecessary sections from this template.
+    - [x] Update the README.md file to provide relevant information about your specific package.
+    - [x] Remove unnecessary sections from this template.
 
  9. Contribute:
 
-- [x] If you find issues or have suggestions for improvements in the template itself, feel free to contribute by submitting pull requests.
+    - [x] If you find issues or have suggestions for improvements in the template itself, feel free to contribute by submitting pull requests.
 
-Remember to replace placeholders such as your-username and your-package-name with your actual GitHub username and the desired name for your new package. Mark the checkboxes as you complete each task.
+ Remember to replace placeholders such as your-username and your-package-name with your actual GitHub username and the desired name for your new package. Mark the checkboxes as you complete each task.
