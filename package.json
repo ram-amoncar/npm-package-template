@@ -1,6 +1,6 @@
 {
   "name": "npm-package-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A template for NPM package in Typescript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -32,7 +32,7 @@
     "build": "tsup",
     "test": "jest --config ./jest.config.ts",
     "test:watch": "jest --watch --config ./jest.config.ts",
-    "coverage": "jest --collectCoverage --config ./jest.config.ts",
+    "coverage": "jest --coverage --config ./jest.config.ts",
     "format": "prettier -w .",
     "format:check": "prettier -c .",
     "lint": "eslint . --ext .ts",
