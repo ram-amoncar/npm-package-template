@@ -1,0 +1,26 @@
+---
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    # Every sunday
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+
+  - package-ecosystem: npm
+    directory: "/"
+    # Daily 12:30pm UTC
+    schedule:
+      interval: "daily"
+      time: "12:30"
+    allow:
+      - dependency-name: "husky"
+      - dependency-name: "jest"
+      - dependency-name: "ts-*"
+      - dependency-name: "tsup"
+      - dependency-name: "typescript"
+      - dependency-name: "@stylistic/*"
+      - dependency-name: "eslint"
+    open-pull-requests-limit: 5
+    versioning-strategy: increase-if-necessary
