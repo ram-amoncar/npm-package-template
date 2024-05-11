@@ -9,7 +9,7 @@
     "dist"
   ],
   "devDependencies": {
-    "@stylistic/eslint-plugin-js": "^1.7.0",
+    "@stylistic/eslint-plugin-js": "^2.1.0",
     "@stylistic/eslint-plugin-ts": "^1.7.0",
     "@types/jest": "^29.5.2",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
