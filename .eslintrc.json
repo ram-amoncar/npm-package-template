@@ -22,6 +22,7 @@
     "jest/valid-expect": "error",
     "@stylistic/ts/indent": ["error", 4],
     "@stylistic/ts/space-before-function-paren": "off",
-    "@stylistic/ts/quotes": ["error", "single", { "allowTemplateLiterals": true }]
+    "@stylistic/ts/quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "@stylistic/ts/no-unmodified-loop-condition": "off"
   }
 }
