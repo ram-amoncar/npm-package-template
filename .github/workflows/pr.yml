@@ -21,7 +21,7 @@ jobs:
                 node-version: ${{ matrix.node-version }}
 
             - name: Installing dependencies ⚒️
-              run: npm ci
+              run: npm install
 
             - name: Running Tests 🧪
               run: npm run test
@@ -40,7 +40,7 @@ jobs:
                 node-version: '20'
 
             - name: Installing dependencies ⚒️
-              run: npm ci
+              run: npm install
 
             - name: Checking code quality 🤔
               run: npm run lint
