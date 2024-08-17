@@ -22,18 +22,18 @@ git clone https://github.com/Ram-Amoncar/npm-package-template.git your-package-n
 Install dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 ## Scripts
-- ```npm run build``` :arrow_right: Build the TypeScript code using tsup.
-- ```npm test``` :arrow_right: Run Jest tests.
-- ```npm run test:watch``` :arrow_right: Run Jest tests in watch mode.
-- ```npm run coverage``` :arrow_right: Run Jest tests with coverage.
-- ```npm run format``` :arrow_right: Format code using Prettier.
-- ```npm run format:check``` :arrow_right: Check if code is formatted using Prettier.
-- ```run lint``` :arrow_right: Run ESLint for linting TypeScript files.
-- ```npm run lint:fix``` :arrow_right: Run ESLint with the --fix flag to - - automatically fix linting issues.
+- ```bun run build``` :arrow_right: Build the TypeScript code using tsup.
+- ```bun run test``` :arrow_right: Run Jest tests.
+- ```bun run test:watch``` :arrow_right: Run Jest tests in watch mode.
+- ```bun run coverage``` :arrow_right: Run Jest tests with coverage.
+- ```bun run format``` :arrow_right: Format code using Prettier.
+- ```bun run format:check``` :arrow_right: Check if code is formatted using Prettier.
+- ```bun run lint``` :arrow_right: Run ESLint for linting TypeScript files.
+- ```bun run lint:fix``` :arrow_right: Run ESLint with the --fix flag to - - automatically fix linting issues.
 
 ## License
 This project is licensed under the Unlicense - see the [LICENSE](UNLICENSE) file for details.
@@ -46,3 +46,4 @@ This project is licensed under the Unlicense - see the [LICENSE](UNLICENSE) file
 - [Eslint](https://eslint.org/) :arrow_right: Pluggable linting utility for JavaScript and TypeScript.
 - [Prettier](https://prettier.io/) :arrow_right: Opinionated code formatter.
 - [Husky](https://typicode.github.io/husky/) :arrow_right: Git hooks made easy.
+- [Bun](https://bun.sh) :arrow_right: Incredibly fast JavaScript runtime.
