@@ -1,6 +1,6 @@
 {
   "name": "npm-package-template",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A template for NPM package in Typescript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
