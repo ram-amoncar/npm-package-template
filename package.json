@@ -42,15 +42,16 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "prepare": "bunx husky",
-    "build": "bunx tsup",
-    "test": "bunx jest --config ./jest.config.ts",
-    "test:watch": "bunx jest --watch --config ./jest.config.ts",
-    "coverage": "bunx jest --coverage --config ./jest.config.ts",
-    "format": "bunx prettier -w .",
-    "format:check": "bunx prettier -c .",
-    "lint": "bunx eslint . --ext .ts",
-    "lint:fix": "bunx eslint --fix . --ext .ts"
+    "prepare": "husky",
+    "build": "tsup",
+    "test": "jest --config ./jest.config.ts",
+    "test:watch": "jest --watch --config ./jest.config.ts",
+    "coverage": "jest --coverage --config ./jest.config.ts",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint --fix . --ext .ts",
+    "path": "which node"
   },
   "keywords": [
     "npm",
