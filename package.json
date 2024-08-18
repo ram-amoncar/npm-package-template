@@ -57,8 +57,7 @@
     "format": "prettier -w . --config .prettierrc",
     "format:check": "prettier -c . --config .prettierrc",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "path": "which node"
+    "lint:fix": "eslint --fix ."
   },
   "type": "module",
   "types": "./dist/index.d.ts"
