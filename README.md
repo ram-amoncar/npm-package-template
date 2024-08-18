@@ -6,10 +6,20 @@ A template for NPM packages in TypeScript.
 
 ## Table of Contents
 
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Scripts](#scripts)
 - [License](#license)
 - [Acknowledgments](#Acknowledgments)
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+
+- **Bun**: [Installation Documentation](https://bun.sh/docs/installation)
+- **Node.js**: [Download and Installation](https://nodejs.org/)
+
+Make sure both are added to your system's PATH.
 
 ## Installation
 
