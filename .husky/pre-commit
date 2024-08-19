@@ -1,4 +1,11 @@
 #!/bin/bash
-. "$(dirname -- "$0")/_/husky.sh"
 
-npm test && npm run lint
+# Test
+bun run test
+
+# Formatting
+bunx prettier $(git diff --cached --name-only --diff-filter=AMCR | sed 's| |\\ |g') --write --ignore-unknown --config .prettierrc
+git update-index --again
+
+# Linting
+bun run lint
