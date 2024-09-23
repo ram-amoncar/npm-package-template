@@ -7,7 +7,7 @@ import love from 'eslint-config-love'
 
 export default [
     {
-        ignores: ['dist']
+        ignores: ['dist', '**/*.js']
     },
     // Stylistic
     {
