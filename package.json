@@ -11,7 +11,7 @@
   "devDependencies": {
     "@stylistic/eslint-plugin": "^2.8.0",
     "@types/jest": "^29.5.13",
-    "eslint-config-love": "^71.0.0",
+    "eslint-config-love": "^84.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.8.3",
     "eslint-plugin-prettier": "^5.2.1",
