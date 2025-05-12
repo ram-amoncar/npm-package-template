@@ -36,6 +36,7 @@ bun install
 ```
 
 ## Scripts
+
 - ```bun run build``` :arrow_right: Build the TypeScript code using tsup.
 - ```bun run test``` :arrow_right: Run Jest tests.
 - ```bun run test:watch``` :arrow_right: Run Jest tests in watch mode.
@@ -46,6 +47,7 @@ bun install
 - ```bun run lint:fix``` :arrow_right: Run ESLint with the --fix flag to - - automatically fix linting issues.
 
 ## License
+
 This project is licensed under the Unlicense - see the [LICENSE](UNLICENSE) file for details.
 
 ## Acknowledgments
