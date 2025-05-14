@@ -56,7 +56,7 @@
     "coverage": "jest --coverage --config ./jest.config.ts",
     "format": "prettier -w . --config .prettierrc",
     "format:check": "prettier -c . --config .prettierrc",
-    "lint": "eslint .",
+    "lint": "eslint . --no-warn-ignored",
     "lint:fix": "eslint --fix ."
   },
   "type": "module",
