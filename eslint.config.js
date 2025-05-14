@@ -1,13 +1,15 @@
 'use strict'
 
+import { defineConfig, globalIgnores } from 'eslint/config'
 import stylistic from '@stylistic/eslint-plugin'
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import jest from 'eslint-plugin-jest'
 import love from 'eslint-config-love'
 
-export default [
+export default defineConfig([
+    globalIgnores(['dist/', '**/*.js']),
     {
-        ignores: ['dist', '**/*.js']
+        files: ['**/*.ts']
     },
     // Stylistic
     {
@@ -36,4 +38,4 @@ export default [
     },
     // Prettier
     eslintPluginPrettierRecommended
-]
+])
